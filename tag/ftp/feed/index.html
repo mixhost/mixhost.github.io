@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>【FTP】タグの記事一覧｜mixhost サーバーコラム</title>
+	<atom:link href="https://mixhost.jp/column/tag/ftp/feed/" rel="self" type="application/rss+xml" />
+	<link>https://mixhost.jp/column</link>
+	<description>レンタルサーバーについてのアレコレ</description>
+	<lastBuildDate>Tue, 31 Jan 2023 22:23:48 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+
+<image>
+	<url>https://mixhost.jp/column/wp-content/uploads/2019/11/mixhost_favicon3.png</url>
+	<title>【FTP】タグの記事一覧｜mixhost サーバーコラム</title>
+	<link>https://mixhost.jp/column</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">164329315</site>	<item>
+		<title>FTPってなんだ？仕組みと専門用語をプロが徹底解説！</title>
+		<link>https://mixhost.jp/column/ftp/</link>
+		
+		<dc:creator><![CDATA[高原弘史朗｜ブログ・アフィリ歴8年]]></dc:creator>
+		<pubDate>Thu, 19 Sep 2019 12:48:49 +0000</pubDate>
+				<category><![CDATA[レンタルサーバー]]></category>
+		<category><![CDATA[FTP]]></category>
+		<category><![CDATA[とは]]></category>
+		<guid isPermaLink="false">https://mixhost.jp/column/?p=318</guid>
+
+					<description><![CDATA[ホームページを作ったことのある方は、FTPがどういうものか簡単には理解していると思います。 でもなんとなくは分かっているようで、実は理解している人は結構少なかったり・・・。 FTPについて一度理解しておけば、ワードプレス]]></description>
+										<content:encoded><![CDATA[<p>ホームページを作ったことのある方は、FTPがどういうものか簡単には理解していると思います。</p>
+<p>でもなんとなくは分かっているようで、実は理解している人は結構少なかったり・・・。</p>
+<p>FTPについて一度理解しておけば、ワードプレスやCMS、HTMLサイト作成時のイレギュラーな状況に素早く対応することができます。</p>
+<p>今回は<span style="color: #008000;"><strong>わかっているようで実はよくわからないFTPについて解説</strong></span>をしていきます。</p>
+<p>この記事の内容を一読しておくと、さまざまな場面で作業がスムーズにいくので、ぜひ頭に入れておいてください！</p>
+<h2 class="hh hh8">FTPとは</h2>
+<p><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-416" src="https://mixhost.jp/column/wp-content/uploads/2019/09/01-2.jpg" alt="" width="600" height="400" />そもそもFTPとは？何かの頭文字をとってきてるのは何となく想像ができますよね？</p>
+<p>FTPとは「<span style="color: #008000;"><strong>File Transfer Protocol</strong></span>」の頭文字をとったもの。</p>
+<p>直訳すると<span style="color: #008000;"><strong>ファイルを転送する覚え書き</strong></span>となります。</p>
+<p>要するに<span style="background-color: #ffff99;">ファイル転送（送受信などの通信）に係る決まり事</span>です。</p>
+<p>WEBサイトを公開するためには、<strong>自分で作成したデータ</strong>（HTMLファイルやその他のファイル、文章、画像データ、音声データなど）をWEBサーバーに転送複製しなければなりません。</p>
+<p>これは皆さんもよく知っているWEBの常識ですね。</p>
+<p>この転送作業を経た後にやっと一般公開となりますが、この転送作業を代わりに行ってくれるのが<span style="color: #008000;"><strong>FTPクライアントソフト</strong></span>です。</p>
+<p>だた、近年ではWordPressなどのCMS（Contents Management System）の普及によりFTPの必要性が以前と比べ少なくなってきました。</p>
+<p>それでもWEBサイトの制作会社では未だFTPは重宝されています。</p>
+<div class="concept-box1">
+<p><strong>FTP</strong>とは、「<strong>File Transfer Protocol</strong>」の頭文字をとった、<strong>ファイル転送作業</strong>を指す</p>
+</div>
+<h2 class="hh hh8">FTPサーバーとFTPクライアント</h2>
+<p><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-417" src="https://mixhost.jp/column/wp-content/uploads/2019/09/02-2.jpg" alt="" width="600" height="400" />仕組みを説明する前にもう少しだけFTPについて基本的な部分を解説します。</p>
+<p><strong><span style="color: #008000;">FTPサーバーとFTPクライアントの関係</span></strong>は、いわば<span style="background-color: #ffff99;">送信と受信の違い</span>だと思ってください。</p>
+<p>HTMLファイルなどを作成しそれらを<span style="color: #008000;">転送する側のコンピューター</span>は<strong><span style="color: #008000;">FTPクライアント</span></strong>となります。</p>
+<p>逆にレンタルサーバーなどのようなWEBサイトを公開するために関連ファイルを<span style="color: #008000;">転送される側のサーバー</span>は<span style="color: #008000;"><strong>FTPサーバー</strong></span>となります。</p>
+<div class="concept-box1">
+<p><strong>FTPサーバーとFTPクライアントは送信と受信の違い</strong></p>
+</div>
+<h2 class="hh hh8">FTPの仕組み</h2>
+<p><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-418" src="https://mixhost.jp/column/wp-content/uploads/2019/09/03-2.jpg" alt="" width="600" height="400" />冒頭でも簡単に説明しましたが、<span style="background-color: #ffff99;">FTPとは中継のための手段</span>（通信をつなぐ仕組み自体のこと）であり、FTPクライアントとFTPサーバーの両者間でのデータのやり取りのことを指します。</p>
+<p>このやり取りは「<span style="color: #008000;"><strong>PI</strong></span>」と「<span style="color: #008000;"><strong>DTP</strong></span>」の2つのプログラムが動作して行われています。</p>
+<p>これらは意識する必要はありませんが<span style="color: #008000;">ファイル転送には不可欠な役割</span>であり、この２つが揃って初めてファイルの転送作業が実現できます。</p>
+<h3 class="hh hh7 pastel-bc main-bdr">PI</h3>
+<p><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-419" src="https://mixhost.jp/column/wp-content/uploads/2019/09/04-2-300x200.jpg" alt="" width="300" height="200" />PIとは「<span style="color: #008000;"><strong>Protocol Interpreter</strong></span>(プロトコル・インタプリタ)」の頭文字を取った略語です。</p>
+<p>転送指示などの内容をプロトコル（覚え書き）にインタプリタ（翻訳）する役割があります。</p>
+<p>PIはサーバーサイトどクライアントサイド双方に存在し、<span style="background-color: #ffff99;">常に相互通信</span>を行っています。</p>
+<p>クライアント側PIではユーザーからのFTPコマンドを自動解釈し、それをFTPプロトコルに変換したのちサーバーへ命令を下します。</p>
+<p>サーバー側PIでは、送られてきたプロトコルをサーバー側でインタプリタして指定された動作を実行します。</p>
+<p><span style="color: #008000;"><strong>なぜこのような小難しい動作を挟まないといけないのか？</strong></span></p>
+<p>それはプログラムは<span style="background-color: #ffff99;">全て単体動作の連続</span>だからです。</p>
+<div class="concept-box5">
+<p>例えば貴方が<strong>○○ディレクトリの中の○○ファイルを開きたい</strong>と思ったとします。</p>
+<p>これを一連の動作で行おうと思っても命令言語は一つ一つ分解しないと理解できません。</p>
+<ol>
+<li>まずは○○ディレクトリを選択</li>
+<li>次に開く動作をする</li>
+<li>更にその次にその中の○○ファイルを選択</li>
+<li>最後にそのファイルをどうするか（実行、変更、削除なのか）を決定する</li>
+</ol>
+<p>というように、プログラムでは細分化されて命令を出す必要があります。</p>
+</div>
+<p>これらの作業は普段意識する必要はありませんが、<span style="background-color: #ffff99;">PIとはそれらの動作を自動で分解して伝えてくれる仕組み</span>なのです。</p>
+<div class="concept-box1">
+<p><strong>PIとは…</strong><br />
+転送指示などの内容をプロトコル（覚え書き）にインタプリタ（翻訳）する役割</p>
+</div>
+<h3 class="hh hh7 pastel-bc main-bdr">DTP</h3>
+<p><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-420" src="https://mixhost.jp/column/wp-content/uploads/2019/09/05-2-300x200.jpg" alt="" width="300" height="200" />DTPとは「<span style="color: #008000;"><strong>Data Transfer Proccess</strong></span>（データトランスファープロセス）」の略です。</p>
+<p><strong><span style="color: #008000;">使用されるファイルシステムのアクセス部分</span></strong>を指します。</p>
+<p>現在は技術の発展と共通化によりあまり問題視されることはなくなりましたが、ファイル転送と一口に言ってもOS（WindowsやMacなど）毎にファイルシステムの仕組みや格納構造、フォーマットなど全て異なってきます。</p>
+<p>転送元はWindowsでも転送先のOSは別のOSだった場合、規格や仕様の違いからそのまま理解できるとは限りません。</p>
+<p>これらをモジュール化し転送時に使い分けることで、<span style="background-color: #ffff99;">様々なOSにも対応できるマルチプラットフォームが実現</span>できています。</p>
+<div class="concept-box1">
+<p><strong>DTPとは…</strong><br />
+使用されるファイルシステムのアクセス部分を指す<br />
+様々なOSにも対応できるマルチプラットフォームが実現</p>
+</div>
+<h3 class="hh hh7 pastel-bc main-bdr">コントロールコネクションとデータコネクション</h3>
+<p><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-421" src="https://mixhost.jp/column/wp-content/uploads/2019/09/06-2-300x200.jpg" alt="" width="300" height="200" />FTPのもう一つの特徴が<span style="background-color: #ffff99;">「コントロールコネクション」と「データコネクション」を分離させている</span>点です。</p>
+<p>クライアント側のユーザーPIは、サーバー側のサーバーPIに対しコネクションを発行します。</p>
+<p>この時、<span style="color: #008000;"><strong>サーバーでは21番ポートを開放して使用できるようにしユーザーからアクセスを待ち</strong></span>ます。</p>
+<p>これを「コントロールコネクション」と呼び、HTTPやSMTPと同じようにクライアントからのコマンドを実行し、結果ステータスなどを返します。</p>
+<p>一方で<span style="color: #008000;"><strong>実際のファイルデータの転送などはDTPが受け持ち</strong></span>ます。</p>
+<p>この動作を<span style="font-size: 20px; color: #008000;"><strong>「データコネクション」</strong></span>と呼びます。</p>
+<h4>データコネクションとは…</h4>
+<p>データコネクションに使用するポートはコントロールコネクションとは異なりますので、HTTPやSMTPでのポート接続は常に一つだけですがFTPでは２つのポートを使用します。</p>
+<p>データコネクションを別に発行する理由は<span style="background-color: #ffff99;">データ転送などをスムーズに行うため</span>です。</p>
+<p>先にも述べたように、プログラムは単一処理の連続で成り立っています。</p>
+<p>もし一つのポートで命令系統と転送を同時に行った場合、大容量のデータを転送中にはそのデータの転送終了まで別の処理は実行できません。</p>
+<p>これを分けることで転送途中でも同時に別の命令を判断でき、<strong><span style="color: #ff0000;">同時にいくつものファイルを転送できる</span></strong>ようになっています。</p>
+<p>なお、データコネクションで送受信されるのは物理ファイルとその一覧のみで、ステータスなどの<span style="background-color: #ffff99;">実行結果は全てコントロールコネクションを通じて返されます。</span></p>
+<div class="concept-box5">
+<p><strong>ポートとは…</strong></p>
+<p>少し蛇足になりますが、ポートについても解説しておきます。</p>
+<p>ポートとは<span style="background-color: #ffff99;">様々な機器との接続窓口</span>と思ってください。</p>
+<p>この窓口であるポートには全て法則があり、どの窓口を何が使うかは予め決まっています。</p>
+<p>例えばWEBサイトを観覧する際にはインターネットデータを受信する必要がありますが、これには<span style="color: #008000;"><strong>80番ポート</strong></span>が使用されています。</p>
+</div>
+<p>また今回のテーマである<span style="background-color: #ffff99;"><strong>FTPには20番と21番ポートが使用</strong></span>されます。</p>
+<div class="concept-box1">
+<p><strong>コントロールコネクション：<br />
+</strong>21番ポートを開放して使用できるようにしユーザーからアクセスを待つ<strong><br />
+</strong></p>
+<p><strong>データコネクション：<br />
+</strong>実際のファイルデータの転送などはDTPが受け持ちする</p>
+</div>
+<h3 class="hh hh7 pastel-bc main-bdr">FTPの内部動作について</h3>
+<p><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-422" src="https://mixhost.jp/column/wp-content/uploads/2019/09/07-2-300x200.jpg" alt="" width="300" height="200" />ほぼ全てのユーザーは<span style="color: #008000;"><strong>GUI</strong></span>（Graphical User Interface）と呼ばれる視覚的に操作できるツール（FFFTPのような<span style="color: #008000;"><strong>FTPクライアントソフト</strong></span>）を使用してサーバーにアップロードしていると思います。</p>
+<p>FTPはtelnetを基に開発されているため、<span style="background-color: #ffff99;">ASCII</span>と呼ばれるコードをベースにした</p>
+<ul>
+<li>コマンド（命令）</li>
+<li>レスポンス（結果）</li>
+</ul>
+<p>によって成り立ちます。</p>
+<p><span style="color: #008000;"><strong>リクエストは全てコマンドとオプションで構成されている</strong></span>のです。</p>
+<p>レスポンスはレスポンスコードと呼ばれる3桁の数字で構成されます。</p>
+<p>レスポンスコードには個別で番号に対応する意味が定められています。</p>
+<div class="concept-box5">
+<p>レスポンスコードについては、<a href="https://developer.mozilla.org/ja/docs/Web/HTTP/Status" target="_blank" rel="noopener noreferrer">mozira公式サイト</a>に解説があったので、こちらをご参考ください。</p>
+</div>
+<div class="sng-box box25">
+<div class="concept-box1">
+<p>FTPはtelnetを基に開発されている。</p>
+<p>ASCIIをベースにした<strong>コマンド（命令）とレスポンス（結果）</strong>で成り立つ</p>
+</div>
+</div>
+<h3 class="hh hh7 pastel-bc main-bdr">バイナリモードとアスキーモード</h3>
+<p><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-423" src="https://mixhost.jp/column/wp-content/uploads/2019/09/08-2-300x200.jpg" alt="" width="300" height="200" />FTPで転送を行う場合には暗号化処理はされません。従ってFTPはセキュリティ性に乏しくなります。</p>
+<p>しかし様々な環境の変化に伴い<strong>SFTPと呼ばれるセキュリティ性も兼ね備えたFTP</strong>が登場したことで、<strong><span style="color: #ff0000;">全ての転送処理に暗号化処理が施される</span></strong>ようになりました。</p>
+<p>SFTPの転送モード選択にはバイナリモードしかないため、アスキーモードを知っているユーザーは少ないかもしれません。</p>
+<div class="concept-box5">
+<p><span style="color: #008000;"><strong>アスキーモード</strong></span>とは、LinuxとWindowsなど異なるOSで存在する<span style="background-color: #ffff99;">改行コードの違いを自動で補正して転送するモード</span>です。</p>
+<p>昔は開発環境と本番環境が別々のOSで行われることがしばしばあり、改行コードの違いで動作しないことも頻発しいました。</p>
+<p>そのため、アスキーモードは開発する側にとってとても重宝する機能でした。</p>
+</div>
+<p>最近では開発環境やエディタの進化により改行コードも整備され、<strong><span style="color: #008000;">アスキーモードでアップロードするメリットはほぼなくなりました</span>。</strong></p>
+<p>逆に改行コードが補正されることでファイルの破損などを引き起こす可能性もあります。</p>
+<p>一方<span style="color: #008000;"><strong>バイナリモード</strong></span>とは<span style="background-color: #ffff99;">データをそのまま無補正で転送するモード</span>です。</p>
+<p>動画や画像などは、内部データを補正すると破損してしまうので<span style="background-color: #ffff99;"><strong>常にこのモードが使用されます。</strong></span></p>
+<div class="concept-box1">
+<p><strong>バイナリモード</strong>はデータを無補正で転送するモード。<br />
+<strong>アスキーモード</strong>は異なるOSの改行コードの違いを自動で補正して転送するモード<br />
+最近ではアスキーモードを使うメリットはほぼなくなった。</p>
+</div>
+<h2 class="hh hh8">まとめ</h2>
+<p><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-424" src="https://mixhost.jp/column/wp-content/uploads/2019/09/09-2.jpg" alt="" width="600" height="400" />いかがでしたか？CMSの台頭により今ではホームページ制作においてCMSカスタマイズのみといった事案が増えてきています。</p>
+<p>しかし、<strong><span style="color: #008000;">CMSを使わないサイト</span></strong>もまだまだあります。</p>
+<p>それらのサイトデータをサーバーからダウンロードしたり、逆に更新したデータをサーバーにアップロードする際には、<span style="background-color: #ffff99;">FTP（もしくはSFTP）が必要</span>になります。</p>
+<p>これを機にもう一度勉強してみるとよいかもしれませんね。</p>
+<div class="simple-box7">
+<p style="text-align: center;"><strong>【レンタルサーバーならmixhostがオススメ！】</strong></p>
+<p><span style="font-size: 16px;"><span style="background-color: #ffff99;">mixhostは<strong><span style="color: #008000; font-size: 20px;">同価格帯で最もハイスペッ</span><span style="color: #008000;"><span style="font-size: 20px;">ク</span>で</span></strong></span>、</span><span style="font-size: 16px;">自身をもってご紹介できる高品質サーバーです。</span></p>
+<p><span style="font-size: 16px;"><span style="color: #ff0000;"><strong>低料金で安定・高速通信が可能</strong></span>な秘密をぜひ</span>確認してみて下さい！</p>
+<p><span style="font-size: 20px;"><a href="https://secure1.adcent.jp/link?v=md_Y0KLDRijqAprjRhwFxPeRw%3D%3D" target="_blank" rel="noopener noreferrer">mixhos t料金・スペック解説ページ</a></span></p>
+</div>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">318</post-id>	</item>
+	</channel>
+</rss>

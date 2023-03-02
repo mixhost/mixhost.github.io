@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>【MySQL】タグの記事一覧｜mixhost サーバーコラム</title>
+	<atom:link href="https://mixhost.jp/column/tag/mysql/feed/" rel="self" type="application/rss+xml" />
+	<link>https://mixhost.jp/column</link>
+	<description>レンタルサーバーについてのアレコレ</description>
+	<lastBuildDate>Tue, 31 Jan 2023 22:23:45 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+
+<image>
+	<url>https://mixhost.jp/column/wp-content/uploads/2019/11/mixhost_favicon3.png</url>
+	<title>【MySQL】タグの記事一覧｜mixhost サーバーコラム</title>
+	<link>https://mixhost.jp/column</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">164329315</site>	<item>
+		<title>MySQLとは？【サイト運営者必読！】表示速度が違う静的・動的サイトの違い</title>
+		<link>https://mixhost.jp/column/mysql/</link>
+		
+		<dc:creator><![CDATA[高原弘史朗｜ブログ・アフィリ歴8年]]></dc:creator>
+		<pubDate>Thu, 19 Sep 2019 12:48:22 +0000</pubDate>
+				<category><![CDATA[レンタルサーバー]]></category>
+		<category><![CDATA[MySQL]]></category>
+		<category><![CDATA[とは]]></category>
+		<guid isPermaLink="false">https://mixhost.jp/column/?p=322</guid>
+
+					<description><![CDATA[皆さんが知っているWEBサイト、実はこれ、 静的WEBサイト 動的WEBサイト の二種類があるんです。 読んで字の如く、静的WEBサイトは動きのないサイト。 動的WEBサイトは例えばアクセスカウンターであったり、リアルタ]]></description>
+										<content:encoded><![CDATA[<p>皆さんが知っているWEBサイト、実はこれ、</p>
+<ul>
+<li><span style="color: #008000;"><strong>静的WEBサイト</strong></span></li>
+<li><span style="color: #008000;"><strong>動的WEBサイト</strong></span></li>
+</ul>
+<p><span style="color: #008000;"><strong>の二種類がある</strong></span>んです。</p>
+<p>読んで字の如く、<strong>静的WEBサイトは動きのないサイト</strong>。</p>
+<p>動的WEBサイトは例えばアクセスカウンターであったり、<strong>リアルタイムに情報が更新される動きのあるサイト</strong>です。</p>
+<div class="concept-box6">
+<p><strong>WordPressも動的サイト</strong>です。</p>
+<p>動的サイトは<strong>使い方次第で、表示速度が遅く</strong>なってしまいます。</p>
+<p><span style="background-color: #ffff99;">ユーザビリティーの低下やSEOへの悪影響</span>もあります。</p>
+</div>
+<p>ここ数年、目まぐるしいインターネットの普及により静的WEBサイトはほぼ淘汰されています。</p>
+<p>皆さんが普段何気なく見ているサイトも<span style="background-color: #ffff99;">動的WEBサイトが主流</span>になってきました。</p>
+<p>今回はこの<span style="color: #008000;"><strong>動的WEBサイトにも多く使われているMySQLについて</strong></span>ご説明します。</p>
+<p>サイト運営者なら、<strong><span style="background-color: #ffff99;">絶対に知っておいた方が良い<span style="font-size: 20px;">重要な内容</span></span></strong>なので、ぜひ一読ください！</p>
+<h2 class="hh hh8">MySQLについて</h2>
+<p><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-401" src="https://mixhost.jp/column/wp-content/uploads/2019/09/01-1.jpg" alt="" width="600" height="400" />まず、MySQLの基本についてご説明していきます。</p>
+<h3 class="hh hh7 pastel-bc main-bdr">データベースとは</h3>
+<p><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-402" src="https://mixhost.jp/column/wp-content/uploads/2019/09/02-1-300x200.jpg" alt="" width="300" height="200" />MySQLの説明の前に、<strong>データベース</strong>を簡単に理解する必要があります。</p>
+<p>データベースとは、<span style="color: #008000;"><strong>特定のデータを蓄積してそれらを使いやすい形に整理した情報の塊</strong></span>を指します。</p>
+<p>コンピューターの世界ではこれをまとめて「<span style="background-color: #ffff99;">データベース</span>」と呼んでいますが、電話帳や住民票など紙に書いた資料も立派なデータベースです。</p>
+<p>また、コンピューター上でデータベースを管理するシステムを「<span style="color: #008000;"><strong>DBMS</strong></span>（<span style="color: #008000;">DataBase Management System</span>）」と呼び、これらのシステムで扱うデータ群をデータベースと呼ぶ場合もあります。</p>
+<div class="sng-box box25">
+<p><strong>データベースとは</strong><br />
+特定のデータを蓄積し使いやすい形に整理した情報の塊<br />
+コンピューター上でデータベースを管理するシステムを「DBMS（DataBase Management System）」と呼ぶ</p>
+</div>
+<h3 class="hh hh7 pastel-bc main-bdr">MySQLとは</h3>
+<p><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-403" src="https://mixhost.jp/column/wp-content/uploads/2019/09/03-1-300x200.jpg" alt="" width="300" height="200" />MySQLとは一体何でしょう？</p>
+<p>簡単に言うとデータベース言語の中で最も普及している言語のひとつである<span style="background-color: #ffff99;">「SQL」を使ったDBMS</span>のこと。</p>
+<div class="concept-box5">
+<p><strong>DBMSとは？</strong></p>
+<blockquote><p>DBMSとは、データベース管理システム(データベースかんりシステム、database management system)のことを指す。コンピュータのデータベースを構築するために必要となるデータベース運用・管理のためのシステムおよびそのソフトウェアのことで、データベースマネジメントシステムとも呼ばれている。</p>
+<p>参考：日立ソリューションズ「IT用語辞典」：<a href="https://it-words.jp/w/DBMS.html" target="_blank" rel="noopener noreferrer">https://it-words.jp/w/DBMS.html</a></p></blockquote>
+</div>
+<p>DBMSは今や世界中の多くの企業で使用されています。</p>
+<p>データを扱うのに必要となるシステムにはいくつかありますが、中でも<span style="color: #008000;"><strong>MySQLは世界中で最も手軽に利用されているDBMS</strong></span>なのです。</p>
+<div class="concept-box5">
+<p>DBMSを使っているサービス</p>
+<ul>
+<li>ブログ</li>
+<li>インスタグラム</li>
+<li>Twitter</li>
+<li>Facebook</li>
+</ul>
+<p>などなど…</p>
+</div>
+<p>DBMSを使ったサイトは多く存在しますが、<span style="color: #ff0000;">このDBMSを使うことで<strong>多くの情報を一瞬で引き出し表示させることが可能</strong></span>となります。</p>
+<p>また更新作業やビッグデータの追加や削除などもDBMSを使用することによって<span style="color: #ff0000;">より安全にそして迅速に行う</span>ことができるのです。</p>
+<p>そのDBMSの中でも特に利用されているものが、<span style="background-color: #ffff99;"><span style="font-size: 20px;"><strong>MySQL</strong></span>です。</span></p>
+<div class="concept-box5">
+<p>DB-Enginesという専門サイトの調査によると、<span style="background-color: #ffff99;">MySQLは世界で２位の人気</span>を誇ります。</p>
+<p>※1位は世界的に有名な<em>Oracle</em></p>
+<p>DB-Engines：<a href="https://db-engines.com/en/ranking" target="_blank" rel="noopener noreferrer">https://db-engines.com/en/ranking</a></p>
+</div>
+<p>近年ではインスタグラムやYouTube、Twitterなど、</p>
+<ul>
+<li><span style="color: #008000;"><strong>更新頻度の高く</strong></span></li>
+<li><span style="color: #008000;"><strong>情報量の多い</strong></span></li>
+</ul>
+<p><span style="color: #008000;"><strong>大規模なサイト</strong></span>が増えてきました。</p>
+<p>静的サイトでこれらを運営するとなると、<span style="background-color: #ffff99;">ちょっとした更新だけでも全てのページを見直す必要がでてきます</span>。</p>
+<p>無駄に時間を浪費するばかりでなく、ミスなども増えてきます。（膨大な人員が必要になります）</p>
+<p>そこで活躍するのが<span style="background-color: #ffff99;"><strong><span style="font-size: 20px;">CMS</span>（Contents Management System）という管理システム</strong></span>です。</p>
+<p>このCMSの中枢を担うのがMySQLをはじめとしたDBMSです。</p>
+<div class="concept-box1">
+<p><strong>MySQLとは…</strong><br />
+MySQLは世界中で最も手軽に利用されるDBMS<br />
+DBMSを使うことで情報を一瞬で表示させることが可能になった</p>
+</div>
+<h3 class="hh hh7 pastel-bc main-bdr">MySQLの歴史</h3>
+<p><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-404" src="https://mixhost.jp/column/wp-content/uploads/2019/09/04-1-300x200.jpg" alt="" width="300" height="200" />もともとは<a href="https://ja.wikipedia.org/wiki/%E3%83%9F%E3%82%AB%E3%82%A8%E3%83%AB%E3%83%BB%E3%82%A6%E3%82%A3%E3%83%87%E3%83%8B%E3%82%A6%E3%82%B9" target="_blank" rel="noopener noreferrer"><strong>ミカエル・モンティ・ウィデニウス</strong></a>というフィンランド出身の個人が開発。</p>
+<p>これだけ普及したシステムを個人が開発しているなんて凄いですよね。</p>
+<div class="simple-box9">
+<p style="text-align: center;"><strong>【MySQLの歴史】</strong></p>
+<p><strong><span style="color: #008000;">1995年に初公開</span></strong>されましたが、この時はまだオープンソースではなく、クローズオープンという形式での公開でした。</p>
+<p>翌年にバージョン3.11.1が公開された際にもモンティ氏が所属する企業がライセンスを保持。</p>
+<p>オープンソースという形態ではなく<span style="color: #008000;">独自のライセンスで提供</span>（単体での配布は無償、製品とバンドルする場合のみ有償）だったようです。</p>
+<p>2000年初頭に<strong>サンマイクロシステムズ</strong>（日本ではJavaで一躍有名企業となった）が買収したおり、<span style="color: #008000;">オープンソースとデュアルライセンス形式に変更</span>されました。</p>
+<p>この後すぐにオラクル社によってサンマイクロシステムズが買収されてしまいます。</p>
+<p>現在では<span style="background-color: #ffff99;">商標権並びに著作権もオラクル社に移管</span>されています。</p>
+</div>
+<h2 class="hh hh8">MySQLの5つ特徴</h2>
+<p><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-405" src="https://mixhost.jp/column/wp-content/uploads/2019/09/05-1.jpg" alt="" width="600" height="400" />MySQLが多くの人に利用されている理由はいくつかあります。</p>
+<p>その中でも<span style="font-size: 20px; color: #008000;"><strong>特に重要な5つの特徴</strong></span>をご紹介しましょう。</p>
+<h3 class="hh hh7 pastel-bc main-bdr">1.無料で使える</h3>
+<p><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-406" src="https://mixhost.jp/column/wp-content/uploads/2019/09/06-1-300x200.jpg" alt="" width="300" height="200" />MySQLは<span style="background-color: #ffff99;">商標権、著作権ともにオラクル社の所有</span>となっています。</p>
+<p>デュアルライセンスによって<strong><span style="color: #ff0000;">基本的に無料</span></strong>（非商用利用に限る）で利用できますので運用コストがかかりません。</p>
+<h3 class="hh hh7 pastel-bc main-bdr">2.柔軟性が高い</h3>
+<p><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-407" src="https://mixhost.jp/column/wp-content/uploads/2019/09/07-1-300x200.jpg" alt="" width="300" height="200" />MySQLは様々な環境下での動作テストを行っているので、<span style="color: #ff0000;">LinuxやMac,Windowsなど種類を問わず動作が可能</span>です。</p>
+<h3 class="hh hh7 pastel-bc main-bdr">3.拡張性が高い</h3>
+<p><span style="color: #ff0000;"><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-408" src="https://mixhost.jp/column/wp-content/uploads/2019/09/08-1-300x200.jpg" alt="" width="300" height="200" />オリジナルの機能を追加</span>することもできます。</p>
+<p>これにより、<strong>世界中の有志により様々な機能が公開</strong>されています。</p>
+<p>それらをインストールすれば自由なカスタマイズも可能です。</p>
+<h3 class="hh hh7 pastel-bc main-bdr">4.高性能</h3>
+<p><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-409" src="https://mixhost.jp/column/wp-content/uploads/2019/09/09-1-300x200.jpg" alt="" width="300" height="200" />MySQLには<strong>独自のストレージエンジン（マルチストレージエンジン）が採用</strong>されています。</p>
+<p>ストレージエンジンとは、データベースの作成や更新並びに削除などを行うための中枢機能のこと。</p>
+<p>MySQLはデータの保存とアクセスを行うストレージエンジンをSQLパーサー（SQL文の解析を行う機能）と分離し独立させる仕組みを使っています。</p>
+<p>よって、<span style="color: #ff0000;">アプリケーションに合わせてストレージエンジンの種類を選択することが可能</span>。</p>
+<p>またMySQLにデフォルトで使用されている<a href="https://dev.mysql.com/doc/refman/5.6/ja/innodb-default-se.html" target="_blank" rel="noopener noreferrer"><span style="background-color: #ffff99;">InnoDB</span></a>は、MySQL本体やOSのクラッシュからの復旧をサポートしており、バックアップやリカバリーなど24時間稼働を実現させるための様々な機能があります。</p>
+<p>蓄積データの容量が大きければ大きいほど何等かの要因で破損する可能性が高くなってきます。</p>
+<p>MySQLではこれらの機能を使うことで、破損した場合などにも即座に対応することが可能です。</p>
+<h3 class="hh hh7 pastel-bc main-bdr">5.セキュリティ性が高い</h3>
+<p><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-410" src="https://mixhost.jp/column/wp-content/uploads/2019/09/10-1-300x200.jpg" alt="" width="300" height="200" />「<span style="color: #008000;"><strong>SSH（Secure Shell）</strong></span>」や「<span style="color: #008000;"><strong>SSL（Secure Sockets Layer）</strong></span>」と呼ばれる<span style="color: #ff0000;">暗号化技術にも幅広く対応</span>しています。</p>
+<p>ですから、データ送信時にその情報を読み取られる心配がありません。</p>
+<p>これ以外にもデータを暗号化する機能も用意されています。</p>
+<div class="concept-box1">
+<p><strong>MySQLの5つの特徴</strong></p>
+<ol>
+<li>無料で使える</li>
+<li>柔軟性が高い</li>
+<li>拡張性が高い</li>
+<li>高性能</li>
+<li>セキュリティ性が高い</li>
+</ol>
+</div>
+<h2 class="hh hh8">MySQLでできること</h2>
+<p><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-411" src="https://mixhost.jp/column/wp-content/uploads/2019/09/11-1-300x200.jpg" alt="" width="300" height="200" />MySQLは<span style="color: #008000;"><strong>リレーショナルデータベース（RDBMS）</strong></span>です。</p>
+<p>リレーショナルデータベースの「リレーション」とは、<strong><span style="color: #008000;">行と列から構成されるテーブル同士を設定関連付けること</span></strong>を指します。</p>
+<p>この関連付けによって、<span style="color: #ff0000;">簡潔な作業で複数の関連付けられたテーブルから必要な情報を引き出す</span>ことができます。</p>
+<div class="concept-box6">
+<p>【例えば…】</p>
+<p>一方のテーブルの更新を行うと同時にそれに関連する別のテーブルの更新も自動で行ってくれる…など</p>
+</div>
+<p>またデフォルトで使用されている<span style="color: #008000;"><strong>ストレージエンジン（InnoDB）</strong></span>は、トランザクション管理にも対応しているため、<strong><span style="color: #ff0000;">複数のユーザー間で同一のデータを更新</span></strong>しても矛盾が生じません。</p>
+<p>データの整合性などを確保するための定義やデータベース、テーブルなどは全てユーザインターフェイスで管理できます。</p>
+<p>これにより、<strong><span style="background-color: #ffff99;">真っ黒な画面（プロンプト）にSQL文を直接打ち込まなくても容易に変更が可能</span></strong>です。</p>
+<p>これらの機能はORACLEやMicrosoft SQLでも提供されている機能ですが、一番の違いは<span style="background-color: #ffff99;">オープンライセンスで提供</span>されているということ。</p>
+<p>通常、ライセンスには数十万円～高いものでは数千万円というものもあり、これらのDBMSを個人利用を考えるユーザーが利用することはありません。</p>
+<p>ですが、<span style="background-color: #ffff99;"><strong>MySQLはその全てを無料という形で提供</strong></span>していることから世界中で気軽に利用され、一気にシェアを拡大しました。</p>
+<div class="sng-box box25">
+<p><strong>MySQLでできること</strong><br />
+MySQLはオープンライセンスで提供され<span style="color: #ff0000;">DBMSを全て無料で個人利用できる</span></p>
+</div>
+<h2 class="hh hh8">まとめ</h2>
+<p><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-412" src="https://mixhost.jp/column/wp-content/uploads/2019/09/12-1.jpg" alt="" width="600" height="400" />いかがでしたでしょうか？</p>
+<p>MicrosoftのAccessやORACLE社のOracle、日本ではトップシェアを誇るPostgreSQLなど様々なDBMSがありますが、どのDBMSにもそれぞれ特徴があります。</p>
+<p>ただ、<span style="background-color: #ffff99;">敷居の低さと手軽な学習コストを考えるなら<span style="font-size: 20px;"><strong>MySQL一択</strong></span></span>です。</p>
+<p>MySQLは<strong>世界中でWEB用データベースの地位を確立</strong>していますので、<span style="color: #ff0000;">マニュアルや運用方法などの説明をしているサイトも豊富</span>でテスト環境で動作確認をする際にも他のソフトと相性を気にする必要がありません。</p>
+<p>これからWEBサイトを作成する方や、一から勉強される方などは動的WEBサイトには欠かせないデータベースの学習として、<span style="background-color: #ffff99;"><strong>まずはMySQLをお勧め</strong></span>します。</p>
+<div class="simple-box7">
+<p style="text-align: center;"><strong>【レンタルサーバーならmixhostがオススメ！】</strong></p>
+<p><span style="font-size: 16px;"><span style="background-color: #ffff99;">mixhostは<strong><span style="color: #008000; font-size: 20px;">同価格帯で最もハイスペッ</span><span style="color: #008000;"><span style="font-size: 20px;">ク</span>で</span></strong></span>、</span><span style="font-size: 16px;">自身をもってご紹介できる高品質サーバーです。</span></p>
+<p><span style="font-size: 16px;"><span style="color: #ff0000;"><strong>低料金で安定・高速通信が可能</strong></span>な秘密をぜひ</span>確認してみて下さい！</p>
+<p><span style="font-size: 20px;"><a href="https://secure1.adcent.jp/link?v=md_Y0KLDRijqAprjRhwFxPeRw%3D%3D" target="_blank" rel="noopener noreferrer">mixhos t料金・スペック解説ページ</a></span></p>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">322</post-id>	</item>
+	</channel>
+</rss>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>【SSL】タグの記事一覧｜mixhost サーバーコラム</title>
+	<atom:link href="https://mixhost.jp/column/tag/ssl/feed/" rel="self" type="application/rss+xml" />
+	<link>https://mixhost.jp/column</link>
+	<description>レンタルサーバーについてのアレコレ</description>
+	<lastBuildDate>Tue, 31 Jan 2023 22:25:14 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+
+<image>
+	<url>https://mixhost.jp/column/wp-content/uploads/2019/11/mixhost_favicon3.png</url>
+	<title>【SSL】タグの記事一覧｜mixhost サーバーコラム</title>
+	<link>https://mixhost.jp/column</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">164329315</site>	<item>
+		<title>SSL対応は今すぐに！SEOでも重要！証明書の種類はどれが良い？</title>
+		<link>https://mixhost.jp/column/ssl/</link>
+		
+		<dc:creator><![CDATA[高原弘史朗｜ブログ・アフィリ歴8年]]></dc:creator>
+		<pubDate>Tue, 19 Nov 2019 02:33:57 +0000</pubDate>
+				<category><![CDATA[レンタルサーバー]]></category>
+		<category><![CDATA[SSL]]></category>
+		<guid isPermaLink="false">https://mixhost.jp/column/?p=481</guid>
+
+					<description><![CDATA[Webサイトを運営する上で、SSL対応は最近ではなくてはならないものになってきました。 2014年8月にGoogleから『全世界のWebサイトのSSL対応すべき』とアナウンスが発表された時に、かなりの衝撃が走った人も多い]]></description>
+										<content:encoded><![CDATA[<p>Webサイトを運営する上で、<span style="background-color: #ffff99;"><strong>SSL対応</strong></span>は最近ではなくてはならないものになってきました。</p>
+<p>2014年8月にGoogleから『<span style="color: #008000;"><strong>全世界のWebサイトのSSL対応すべき</strong></span>』とアナウンスが発表された時に、かなりの衝撃が走った人も多いのではないでしょうか。</p>
+<p>Googleのアナウンスが出て久しいのですが、今でも<span style="color: #0000ff;">SSL対応していないサイト</span>を見ることがあります。</p>
+<p>確かにSSL対応をすることは必須ではありませんが、ブラウザ上に『<span style="color: #0000ff;"><strong>保護されていない通信</strong></span>』と表示されるのは頂けません。</p>
+<p>そして、<span style="background-color: #ffff99;">警告表示の出ているサイトからは一刻も早く離脱</span>したいという考えに至ります。</p>
+<p>そこで今回は<span style="color: #008000;"><strong>WebサイトのSSL対応について</strong></span>、</p>
+<ul>
+<li>SSLは何を保護するものなのか</li>
+<li>具体的な導入方法</li>
+</ul>
+<p>といった基礎から一緒に勉強していきましょう。</p>
+<h2 class="hh hh8">そもそもSSLって何？何を保護する為のもの？</h2>
+<p><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-519" src="https://mixhost.jp/column/wp-content/uploads/2019/11/01-1.jpg" alt="" width="600" height="400" />そもそもSSLとは何のことなのでしょうか。そして、よく見る「SSL/TLS」の表記も気になる方もおられるかもしれません。</p>
+<p>実は、<span style="background-color: #ffff99;"><strong>SSLとSSL/TLSは同じ</strong></span>ものなのです。</p>
+<p>以前はSSL（Secure Sockets Layer）と呼んでいて、ある程度認知されていました。そして、バージョンアップにより、現在は<span style="color: #008000;"><strong>TLS（Transport Layer Security）</strong></span>という名称に変更。</p>
+<p>しかし、TLSよりも<strong>SSLという呼び方の方が認知度が高い</strong>ので、SSLの表記を残し、現在はとSSL/TLSという表記になっています。</p>
+<p>具体的には、<strong><span style="background-color: #ffff99;">SSLは通信を暗号化する仕組み</span></strong>のことです。</p>
+<p>つまり、SSL対応のWebサイトでは、サイトを閲覧するときやフォームにデータを入力する場合に、外部からデータの<strong><span style="color: #008000;">覗き見ができない</span></strong>のです。</p>
+<p>では、具体的に例を挙げて考えてみましょう。SSL対応していないWebサイトはどのように危険なのでしょうか。</p>
+<h3 class="hh hh7 pastel-bc main-bdr">SSL対応していないサイトはどのように危険？</h3>
+<p><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-520" src="https://mixhost.jp/column/wp-content/uploads/2019/11/02-1-300x200.jpg" alt="" width="300" height="200" />例えば、ネットショップでダイエットサプリを購入する場合、まずは<span style="color: #008000;"><strong>そのECショップの会員になる</strong></span>必要があります。</p>
+<p>会員になるにあたり、住所や名前、電話番号やメールアドレスなどの多くの<span style="color: #008000;"><strong>個人情報を入力</strong></span>しなければなりません。</p>
+<p>ECショップに個人情報を登録することで、サイトへのログインができるようになります。</p>
+<p>この時、<span style="color: #008000;"><strong>ブラウザのクッキーが情報を記憶してくれる</strong></span>ので、次回からはIDやパスワードの入力をしなくても簡単にログイン可能。とっても便利な機能です。</p>
+<p>そして、実際に商品を購入する時には、<span style="color: #008000;"><strong>クレジットカードの番号を入力</strong></span>。無事に購入手続きをすることができました。</p>
+<p>ここで何も問題が無ければ良いのですが、SSL対応できていないサイトでの買い物の場合、<span style="color: #0000ff;">外部から個人情報を読まれる</span>可能性があるのです。</p>
+<p>実は、便利な機能だと思っていたクッキーの情報さえも簡単に盗むことができます。</p>
+<p>上記のような状況で、<span style="color: #0000ff;"><strong>もしも個人情報を盗まれた</strong></span>場合はどのようなことが起こるでしょうか。</p>
+<p>可能性として<strong>考えられる被害</strong>は次の5つ。</p>
+<div class="simple-box4">
+<ul>
+<li>個人情報の流出</li>
+<li>スパムメールや架空請求が急増</li>
+<li>カード被害</li>
+<li>営業電話が急増</li>
+<li>フィッシング詐欺サイトの運営者（なりすまし）として登録される</li>
+<li>企業の場合はイメージ・信頼性が著しく悪化</li>
+</ul>
+</div>
+<p>また、あなたがサイトオーナーなら<span style="color: #0000ff;">Webサイトデータの改ざん</span>をされる可能性もあります。</p>
+<p>個人情報が読み取られてしまった時点で非常に恐ろしいことが起こりそうな予感がしますが、その時点ではわかりません。発覚するのはその数日後というところでしょう。</p>
+<p>上記のようなことが起こり始めたら、SSL対応していないサイトを閲覧した時に個人情報を盗まれていた可能性があります。</p>
+<p><span style="color: #0000ff;">特に危険なのは無料WiFiを利用</span>した場合です。</p>
+<p>カフェなどで無料WiFiを利用する時は要注意です。ネットショッピングなどは控えた方が良いかもしれません。</p>
+<p>では、SSL対応はどのような技術なのでしょうか。</p>
+<p><span style="color: #008000;"><strong>SSLの仕組みについて</strong></span>見ていきましょう。</p>
+<h3 class="hh hh7 pastel-bc main-bdr">SSL対応サイトの仕組み！2つの鍵で複雑に暗号化！</h3>
+<p><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-521" src="https://mixhost.jp/column/wp-content/uploads/2019/11/03-1-300x200.jpg" alt="" width="300" height="200" />SSL対応しているサイトは対になる2つの鍵によって暗号化通信を行っています。2つの鍵とは、</p>
+<ul>
+<li>共通鍵</li>
+<li>公開鍵</li>
+</ul>
+<p>のこと。</p>
+<p><strong>暗号化の基本的な手順</strong>は次の通りです。</p>
+<div class="simple-box4">
+<ol>
+<li>クライアントからWebサーバーに接続要求</li>
+<li>サーバーから公開鍵付き証明書を送付</li>
+<li>クライアントが証明書を検証</li>
+<li>クライアントが共通鍵を生成</li>
+<li>クライアントからWebサーバーに暗号化した共通鍵を送付</li>
+<li>クライアントとWebサーバー間で暗号化通信を行う</li>
+</ol>
+</div>
+<p>実際はもう少し複雑なことをしていますが、基本的な知識としては上記のような暗号化がSSLだと覚えておけば問題無いでしょう。</p>
+<p>ただし、SSL対応と言ってもいくつかの種類があります。基本的なところだけ覚えておきましょう。</p>
+<div class="sng-box box25">・<strong>SSL対応はサイトを安全に利用する為の暗号化技術</strong><br />
+・2つの鍵によって暗号化通信を行う</div>
+<h2 class="hh hh8">SSL対応には種類があった！</h2>
+<p><img decoding="async" loading="lazy" class="aligncenter wp-image-522 size-full" src="https://mixhost.jp/column/wp-content/uploads/2019/11/04-1.jpg" alt="" width="600" height="400" />まず、<span style="background-color: #ffff99;">個人レベルでWebサイトをSSL対応</span>するには次の2つの方法があります。</p>
+<ul>
+<li>共用SSL</li>
+<li>独自SSL</li>
+</ul>
+<p>そして、企業レベルでSSL対応をするには、<strong>SSLサーバー証明書の種類を選ぶ必要</strong>があります。</p>
+<p>SSLサーバー証明書の種類としては、次の3つがあります。</p>
+<ul>
+<li>ドメイン認証型</li>
+<li>企業認証型</li>
+<li>EVタイプ</li>
+</ul>
+<p>まず、共用SSLと独自SSLから詳しく見ていきましょう。</p>
+<h3 class="hh hh7 pastel-bc main-bdr">共用SSLと独自SSL！個人レベルでSSL対応するならどっち？</h3>
+<p><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-523" src="https://mixhost.jp/column/wp-content/uploads/2019/11/05-1-300x200.jpg" alt="" width="300" height="200" />共用SSLと独自SSLの違いは次の通りです。</p>
+<ul>
+<li><strong>共用SSL</strong>：サーバー会社のSSL証明書を複数のユーザーが共有</li>
+<li><strong>独自SSL</strong>：ユーザーが独自で申請し、証明書を取得する</li>
+</ul>
+<p>どちらにもメリット・デメリットがあります。</p>
+<p>独自SSLの場合は、<span style="color: #ff0000;">Webサイトとして安全性・信頼性が高い</span>のですが、<span style="color: #0000ff;">運用コストが高い</span>デメリットがあります。</p>
+<p>逆に共用SSLは<span style="color: #ff0000;">低コスト</span>（運営会社によっては無料）で利用できますが、サイト自体の<span style="color: #0000ff;">信頼性はあまりアピールできない</span>デメリットがあります。</p>
+<p>ECサイトなどで個人情報を扱う場合には独自SSL対応が好ましいのですが、<span style="background-color: #ffff99;">そうでない場合は共用SSL対応で問題ない</span>でしょう。</p>
+<p>では次にSSLサーバー証明書の種類について見ていきましょう。</p>
+<div class="concept-box6">
+<p><strong>個人でSSL対応する2つの方法</strong><br />
+・<strong>共用SSL</strong>：低コスト<br />
+・<strong>独自SSL</strong>：安全性・信頼性が高い</p>
+</div>
+<h3 class="hh hh7 pastel-bc main-bdr">SSLサーバー証明書の種類！信頼性が高いのはEV認証型！</h3>
+<p><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-524" src="https://mixhost.jp/column/wp-content/uploads/2019/11/06-1-300x200.jpg" alt="" width="300" height="200" />前述したように、<strong>SSLサーバー証明書には3種類</strong>あります。それぞれの特長について見ていきましょう。</p>
+<h4 class="hh hh1">ドメイン認証型</h4>
+<p>ドメイン認証型（DV）の特長は以下の通りです。</p>
+<div class="simple-box4">
+<ul>
+<li>誰でも取得できる</li>
+<li>価格が安い・無料のものもある</li>
+<li>証明方法が非常に簡単</li>
+<li>証明書の発行が早い</li>
+</ul>
+</div>
+<p>ドメイン認証型のSSLの場合は申請すれば誰でも取得でき、<span style="color: #ff0000;">信頼性はそれ程高くない認識</span>となります。</p>
+<h4 class="hh hh1">企業認証型（OV）</h4>
+<p>企業認証型（OV）の特長は以下の通りです。</p>
+<div class="simple-box4">
+<ul>
+<li>企業・団体が実在することを認証できる</li>
+<li>各種書類審査や電話確認が必要</li>
+<li>信頼性が高い</li>
+<li>費用が高い</li>
+<li>証明書の発行に時間が掛かる</li>
+</ul>
+</div>
+<p>企業認証型はドメイン認証型よりも信頼性が高く、<span style="color: #ff0000;">クレジット決済を使用するECサイトなどに最適</span>な証明書となります。</p>
+<h4 class="hh hh1">EVタイプ</h4>
+<p>EVタイプの特長は以下の通りです。</p>
+<div class="simple-box4">
+<ul>
+<li>最も厳格な審査</li>
+<li>各種書類審査や電話確認が必要</li>
+<li>会社の登記事項の確認が必要</li>
+<li>申請者の在籍確認が必要</li>
+<li>信頼性が非常に高い</li>
+<li>費用が非常に高い</li>
+<li>証明書の発行に時間が掛かる</li>
+</ul>
+</div>
+<p>EVタイプのSSL証明書は<span style="background-color: #ffff99;"><strong>最も厳格な証明書</strong></span>となります。</p>
+<p>ですから、<span style="color: #ff0000;">知名度のあるブランドサイトや銀行サイトなどに最適</span>です。</p>
+<p>また、ブラウザのアドレスバーの部分に利用者の名前が表示されるので、<span style="background-color: #ffff99;">信頼性をアピールする点においては最も効果的</span>と言えます。</p>
+<p>ところで、SSL対応することで信頼性をアピールすることができるのは確かですが、SSL対応はSEOにおいても意味があります。どういうことでしょうか？</p>
+<div class="concept-box6">
+<p><strong>企業レベルでSSL対応</strong>するには、<br />
+SSLサーバー証明書の種類を選ぶ必要がある。<br />
+最も厳格な証明書の<strong>EV認証型が信頼性が高い</strong>。</p>
+</div>
+<h2 class="hh hh8">SSL対応はSEOでも重要！手遅れになる前に・・・</h2>
+<p><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-525" src="https://mixhost.jp/column/wp-content/uploads/2019/11/07-1.jpg" alt="" width="600" height="400" />冒頭でも述べましたが、<span style="background-color: #ffff99;">Googleは全世界のWebサイトのSSL化を促進</span>しています。</p>
+<p>その一環として、<strong>SSL化をランキングシグナルとして採用する</strong>と2014年8月17日に<a href="https://webmaster-ja.googleblog.com/2014/08/https-as-ranking-signal.html" target="_blank" rel="noopener noreferrer">ウェブマスター向け公式ブログ</a>で発表しています。</p>
+<p>ただし、SSL対応しているからと言って検索順位が劇的に上がることはありません。</p>
+<p>今やSSL対応が当たり前の状況なので、逆に<span style="color: #0000ff;">SSL対応していないサイトは上位表示できない</span>認識の方が正しいでしょう。</p>
+<p>また、SEOの指標として<strong>サイトの滞在時間</strong>が重要になります。</p>
+<p>もし、あなたのサイトがSSL対応していないサイトだったら訪問者はどう思うでしょうか？</p>
+<p>「<strong>保護されていない通信</strong>」などと表示があればなるべく早くそのサイトを閉じたくなるのが人間の心理です。</p>
+<p>つまり、SSL対応していないということは<strong><span style="color: #0000ff;">サイト滞在時間が短くなる可能性が高く、SEO的にも良くない結果</span></strong>となります。</p>
+<p>更に、SSL対応していないサイトでもそれ程気にしない場合でも、やはりサイトからの問い合わせの際はかなりマイナス評価。</p>
+<p>元々<span style="color: #008000;">個人情報を入力することに抵抗を持っている人は多い</span>ので、明らかな<span style="color: #0000ff;">機会の損失</span>になります。</p>
+<div class="concept-box6">
+<p>・<strong>Googleは全世界のWebサイトのSSL化を促進</strong><br />
+・今やSSL対応が当たり前の状況になっている<br />
+・SSL対応済のサイトは安全性、SEOでも有利</p>
+</div>
+<h2 class="hh hh8">まとめ</h2>
+<p><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-526" src="https://mixhost.jp/column/wp-content/uploads/2019/11/08-2.jpg" alt="" width="600" height="400" />今回はWebサイトのSSL対応について取り上げてみました。</p>
+<p><strong>SSL対応はWebサイトを安全に利用する為の暗号化技術</strong>です。</p>
+<p>閲覧しているWebサイトがSSL対応しているかどうかは<span style="background-color: #ffff99;">URLがhttpsから始まっているかどうかで判断</span>ができます。</p>
+<p>また、それだけではなく<span style="background-color: #ffff99;">ブラウザのアドレスバーに鍵のマークが表示</span>されるので、その辺りも確認してみてください。</p>
+<p>SSL対応済みのWebサイトは安全性はもちろんのこと、SEOでも有利です。</p>
+<p>GoogleのランキングにSSL対応がランキングシグナルとして採用されていますが、<span style="color: #ff0000;">ユーザー心理としてもSSL対応が大きく影響を与える</span>でしょう。</p>
+<p>今までは個人情報やカード決済の必要なECサイトなどではSSL化が必須という認識だったかもしれません。</p>
+<p>しかし、現在はGoogleが想定していたように<span style="background-color: #ffff99;"><strong>全てのWebサイトがSSL対応必須</strong></span>の状況になりつつあります。</p>
+<p>ですから、もしあなたの運営しているWebサイトがまだSSL対応でないなら、今すぐSSL対応するべきでしょう。</p>
+<p>そして、<span style="color: #008000;"><strong>これからWebサイトを作成する場合においてもSSL対応のサイトを作りましょう</strong></span>。</p>
+<p>SSL対応ができるか、その手間がどれだけかかるかは、レンタルサーバーによって大きく変わります。</p>
+<p>最も重要なコンテンツ制作に集中できるよう、SSL対応が簡単に出来るサーバーを選びましょう。</p>
+<p>サーバーの失敗しない選び方についてはコチラの記事で解説しているので、必ず確認してから選んで下さいね。</p>
+<p>https://mixhost.jp/column/how-to-choose/</p>
+<div class="simple-box7">
+<p style="text-align: center;"><strong>【レンタルサーバーならmixhostがオススメ！】</strong></p>
+<p><span style="font-size: 16px;"><span style="background-color: #ffff99;">mixhostは<strong><span style="color: #008000; font-size: 20px;">同価格帯で最もハイスペッ</span><span style="color: #008000;"><span style="font-size: 20px;">ク</span>で</span></strong></span>、</span><span style="font-size: 16px;">自身をもってご紹介できる高品質サーバーです。</span></p>
+<p><span style="font-size: 16px;"><span style="color: #ff0000;"><strong>低料金で安定・高速通信が可能</strong></span>な秘密をぜひ</span>確認してみて下さい！</p>
+<p><span style="font-size: 20px;"><a href="https://secure1.adcent.jp/link?v=md_Y0KLDRijqAprjRhwFxPeRw%3D%3D" target="_blank" rel="noopener noreferrer">mixhos t料金・スペック解説ページ</a></span></p>
+</div>
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">481</post-id>	</item>
+	</channel>
+</rss>
